@@ -1,0 +1,147 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+    color: #000000;
+    background-color: #12978e;
+    font-size: 1.05em;
+    font-family: "Rockwell", "Arial", sans-serif;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    text-align:  center;
+}
+
+header {
+    display: block;
+    text-align: center;
+    background-color: #12867d;
+    border: thick dashed #005215;
+    border-radius: 10px;
+    font-family: Algerian, Rockwell, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    box-sizing: border-box;
+
+}
+
+footer{
+    border-top: thick dashed #005215;
+    text-align: center;
+
+}
+
+h2, h3, p, ul, ol {margin-bottom: 0.7em;}
+h2, h3 {margin-top: 1em;}
+ul, ol {padding-left: 40px;}
+
+.links{
+    float: left;
+    width: 200px;
+}
+
+.rechts{
+    float: right;
+    width: 200px;
+}
+
+p:first-letter{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1.3em;
+}
+
+ul {
+    list-style-image: url('../images/faviconsmall.png');
+}
+
+ol {
+    list-style-type: katakana-iroha;
+}
+
+img.fotopagina {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+/* SHADOW/GLOW TRANSITIONS */
+/* Glow */
+img {
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(500px) translateZ(0);
+    box-shadow: 0 0 100px transparent;
+    transition-duration: 0.5s;
+    transition-property: box-shadow;
+}
+
+img:hover, .hvr-glow:focus, .hvr-glow:active {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+}
+
+a, a:hover {
+    text-decoration-line: none;
+    font-weight: bold;
+    color: #1066e6;
+}
+
+a:hover {
+    color: #005215;
+}
+
+h2.voorwaardenpaginah2 {
+    color: inherit;
+}
+
+ol.voorwaardenpaginaOL {
+    list-style-type: upper-roman;
+}
+
+ul.voorwaardenpaginaUL {
+    list-style: square none;
+}
+
+body.voorwaardenpaginabody {
+    font-family: "Times New Roman", sans-serif;
+}
+
+img.werkplaats {
+    width: 100%;
+}
+
+nav {
+    background-color: #005215;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #007108;
+    color: #38e600;
+}
+
+nav a.active {
+    background-color: #00af06;
+    color: #ffffff;
+}
+
+nav a.active:hover {
+    color: #38e600;
+}
+
