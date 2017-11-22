@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf6bbe87-310d-4a0d-8cbb-17e6f1c30f88" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verhaal.html" afterPath="$PROJECT_DIR$/verhaal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voorwaarden.html" afterPath="$PROJECT_DIR$/voorwaarden.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/werkplaats.html" afterPath="$PROJECT_DIR$/werkplaats.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -290,7 +285,7 @@
       <workItem from="1511270084789" duration="108000" />
       <workItem from="1511272048534" duration="2363000" />
       <workItem from="1511292323840" duration="4599000" />
-      <workItem from="1511352874109" duration="2018000" />
+      <workItem from="1511352874109" duration="2098000" />
     </task>
     <task id="LOCAL-00001" summary="commit3">
       <created>1511297528824</created>
@@ -299,11 +294,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511297528824</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project pagina toegevoegd">
+      <created>1511356141562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1511356141562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35616000" />
+    <option name="totallyTimeSpent" value="35696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -336,7 +338,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit3" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit3" />
+    <MESSAGE value="project pagina toegevoegd" />
+    <option name="LAST_COMMIT_MESSAGE" value="project pagina toegevoegd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
