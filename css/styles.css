@@ -48,6 +48,14 @@ ul, ol {
     padding-left: 40px;
 }
 
+ul {
+    list-style-image: url('../images/faviconsmall.png');
+}
+
+ol {
+    list-style-type: katakana-iroha;
+}
+
 .links {
     float: left;
     width: 200px;
@@ -64,13 +72,7 @@ p:first-letter {
     font-size: 1.3em;
 }
 
-ul {
-    list-style-image: url('../images/faviconsmall.png');
-}
 
-ol {
-    list-style-type: katakana-iroha;
-}
 
 img.fotopagina {
     display: block;
@@ -171,6 +173,12 @@ nav a.active:hover {
 
 .project article img {
     width: 100%;
+}
+
+.personaliafoto{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
