@@ -36,10 +36,6 @@ footer {
 
 }
 
-.project img {
-    width: 100px;
-}
-
 h2, h3, p, ul, ol {
     margin-bottom: 0.7em;
 }
@@ -129,13 +125,15 @@ img.werkplaats {
 }
 
 nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     background-color: #005215;
     overflow: hidden;
 }
 
 nav a {
-    float: left;
-    display: block;
     color: #ffffff;
     text-align: center;
     padding: 14px 16px;
@@ -156,4 +154,23 @@ nav a.active {
 nav a.active:hover {
     color: #38e600;
 }
+
+
+.project{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.project article{
+    border: 1px solid red;
+    width: 200px;
+    font-size: 0.8em;
+}
+
+.project article img {
+    width: 100%;
+}
+
 
